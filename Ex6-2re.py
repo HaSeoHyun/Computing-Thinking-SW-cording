@@ -1,0 +1,10 @@
+train = ["펭수", "정은", "윤상"]
+print("1. 서울역 출발:", train)
+print("-"*30)
+train.insert(3,"성균")
+print("2. 영등포역 출발:", train)
+train.insert(0, "명륜")
+print("3. 수원역 출발:", train)
+train.sort()
+print("-"*30)
+print("4.부산역 도착:",train)
