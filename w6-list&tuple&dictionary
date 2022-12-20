@@ -1,0 +1,26 @@
+#과일리스트
+
+fruits = list(['peach', 'pear', 'cherry'])
+print('\n1. 과일 목록:',fruits)
+
+#인덱스 0에 새로운거 추가(함수)
+
+fruits.insert(0, 'orange')
+print('2. 인덱스 0에 새로운 과일 추가\n', fruits)
+
+#인덱스 1을 'apple'로 수정
+
+fruits.remove('peach')
+fruits.insert(1, 'apple')
+print('3.인덱스1 요소\"apple\"로 수정\n',fruits)
+
+#인덱스 2에 있는 요소 삭제(함수)
+
+fruits.pop(2)
+print('4.인덱스2 요소 삭제\n',fruits)
+
+#사전순
+
+fruits.sort(reverse=False)
+print('5.정렬된 과일 목록:', fruits)
+ 
